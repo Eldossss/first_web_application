@@ -1,0 +1,104 @@
+body{
+ margin:0 ; 
+ font-family: Arial,sans-serif ;
+ line-height: 1.5;
+ color:black;
+}
+
+
+.page{
+  margin : 20px auto ; 
+}
+
+
+.header{
+    padding : 20px;
+    background-color : black ; 
+}
+.header-title { 
+    margin: 0 ;
+    font-size:24px;
+    text-align:center;
+    color:white;
+}
+.header-subtitle { 
+    margin: 0;
+    font-size:16px;
+    text-align:center;
+    color:skyblue   ;
+    font-weight: normal;
+    
+
+/*  nav  */
+    
+}
+.nav-link{
+        display:inline-block; 
+        padding:8px 12px;
+        text-decoration: none;
+        color: black ;
+}
+
+.nav {
+    text-align : center; 
+
+}
+
+.nav-link:hover {
+    background-color: grey; 
+}
+
+/*  content  */
+
+.content{
+    margin:20px;
+}
+.content-title{
+    font-weight: 400;
+    font-size : 24px;
+    color:gainsboro ; 
+    margin-bottom:10px;
+}
+.read-more{
+    color : dimgrey ; 
+    text-decoration: none;
+    
+}
+.read-more:hover{
+text-decoration: underline ; 
+}
+.content-text{
+ margin-bottom: 20px;
+}
+
+/*About article*/
+
+.article-title{
+    font-size:18px;
+    color:dodgerblue;
+    margin-bottom:40px;
+}
+.article-date{
+   font-weight : 400;
+   color:grey;
+}
+
+.article{
+     margin-bottom:20px;
+     border-bottom:solid 1px grey;
+    border-top:solid 1px grey;
+    padding-bottom:40px;
+}
+.article-title a{
+    text-decoration: none;
+    display: block;
+}
+.article-title a:hover{
+  color:aquamarine;
+}
+
+.footer{
+    padding : 80px;
+    background-color:royalblue ;
+    text-align: center;
+}
