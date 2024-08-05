@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset  = "utf-8">
+        <title>Работа с формами</title>
+        <link rel  = "stylesheet" href  = "style_for_form.css">
+    </head>
+    <body>
+        <div class  = "form">
+            <h1 class = "title">Работа с формами</h1>
+            <form action = "/" method  = "post">
+                <div class  = "elements">
+                    <label for = "input_id">Ваш имя:</label>
+                <input class = "form-input" type = "text" name  = "name" id = "input_id">
+                </div>
+                <div class = "elements">
+                    <label for = "input_id1">Ваш емайл:</label>
+                <input class = "form-input" type  = "email" name = "email" id = "input_id1">
+                </div>
+                <div class = "elements">
+                    <label for = "input_id2">Ваш номер:</label>
+                <input class = "form-input" type = "tel" name  = "number" id = "input_id2">
+                </div>
+                <div class = "elements">
+                    <label for = "input_id3">Ваш пароль:</label>
+                <input class = "form-input" type = "password" name = "pass" id = "input_id3">
+                </div>
+                <div class = "elements">
+                    <textarea  class = "text-area" name = "text" placeholder = "О вас" cols = 50 rows = 20></textarea>
+                </div>
+                <div class  = "elements">
+                    <select class = "selection" name = "city">
+                        <option>Алматы</option>
+                        <option>Астана</option>
+                        <option>Шымкент</option>
+                        <option>Атырау</option>
+                    </select>
+                </div>
+                <div class = "elements">
+                    <label for = "photo">Прикрепить фото:</label>
+                    <input type = "file" id = "photo">
+                </div>
+                <div class = "elements">
+                    <label for = "male">Male</label>
+                    <input type = "radio" name = "choose_sex" id = "male">
+                    <label for = "female">Female</label>
+                    <input type = "radio" name  = "choose_sex" id  = "female">
+                </div>
+                
+                <div class = "elements">
+                    <input type = "checkbox" id = "agreement">
+                    <label for = "agreement">Прочитал условие , и согласен с условием</label>
+                </div>
+                <button type = "submit">Отправить форму</button>
+                <button type = "reset">Очистить форму</button>
+                </form>
+        </div>
+    </body>
+</html>
