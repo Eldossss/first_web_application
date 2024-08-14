@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+    color :  black;
+    background-color: skyblue;
+}
+/*Authentication block*/
+.auth {
+    width : 360px;
+    padding : 20px;
+    background-color: white ;
+    margin-left : auto;
+    margin-right : auto ; 
+    margin-top : 20px;
+}
+
+.auth-title{
+ font-size:20px;
+ color : red;
+ text-align: center;
+ margin-bottom : 20px;
+ margin-left : 0 ; 
+margin-right: 0 ; 
+margin-top: 0;
+}
+
+/*input*/
+.input{
+    display:block;
+    width : 346px;
+    padding:10px 5px 10px 5px;
+    border : 1px solid black;
+    font-family: inherit;
+}
+.input:focus{
+    outline : none;
+    border-color:deepskyblue;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+/*Select*/
+.select{
+    display:block;
+    width : 346px;
+    padding:10px 5px 10px 5px;
+    border : 1px solid black;
+    font-family: inherit;
+}
+.select:focus{
+    outline : none;
+    border-color : deepskyblue;
+}
+.btn{
+    font-family : inherit;
+    font-size:15px;
+    display: block;
+    width:346px;
+    background-color:lawngreen;
+    padding : 10px 10px;
+    background-color:lawngreen;
+    color:white;
+    margin-bottom:10px;
+}
+.btn:hover{
+    background-color:green;
+}
+.btn:focus{
+    outline:none;
+    background-color:green;
+}
+.btn:active{
+    background-color:seagreen;
+}
